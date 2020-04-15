@@ -1,0 +1,28 @@
+{
+  "name": "rosi-walletserver",
+  "version": "0.5.0",
+  "description": "ROSI Payment System - Provider Wallet Server",
+  "main": "wallet_main.js",
+  "dependencies": {
+    "iota.flash.js": "^0.0.2",
+    "iota.lib.js": "^0.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node wallet_server_main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunnerm4x/rosi-walletserver.git"
+  },
+  "config": {
+    "port": "11000"
+  },
+  "author": "Maximilian Brunner",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/brunnerm4x/rosi-walletserver/issues"
+  },
+  "homepage": "https://github.com/brunnerm4x/rosi-walletserver#readme"
+}
